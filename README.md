@@ -8,7 +8,7 @@ fork by https://github.com/mpsilfve/wikipedia_gazetteer
 
 # General Stuff
 
-This code will build a gazetteer for Finnish Named Entity Recognition from the Thai Wikipedia. A gazetteer maps terms into categories. For example, the gazetteer built by this code maps "Samsung" into the category "บริษัท" (Finnish for company) and "Nokia" into the categories "บริษัท". 
+This code will build a gazetteer for Thai Named Entity Recognition from the Thai Wikipedia. A gazetteer maps terms into categories. For example, the gazetteer built by this code maps "Samsung" into the category "บริษัท" (Finnish for company) and "Nokia" into the categories "บริษัท". 
 
 Categories are based on Wikipedia infoboxes. Some articles lack an infobox (e.g. the article for ThinkPad in the Thai Wikipedia). Terms corresponding to these articles do not currently receive any categories.
 
