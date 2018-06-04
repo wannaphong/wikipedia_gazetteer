@@ -1,4 +1,4 @@
-pages_fixed_infoboxes:pages_articles_fi.xml
+pages_fixed_infoboxes:pages_articles_th.xml
 	cat $^ | ./fix_infoboxes.sh > $@
 
 infoboxes:pages_fixed_infoboxes
@@ -10,5 +10,5 @@ info_categories:infoboxes
 redirects:pages_fixed_infoboxes
 	cat $^ | python3 get_redirects.py > $@
 
-fi_wikipedia_gazetteer.pkl:info_categories redirects
+th_wikipedia_gazetteer.pkl:info_categories redirects
 	python3 add_redirects.py $^ $@ 
