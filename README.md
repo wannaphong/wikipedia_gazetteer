@@ -4,6 +4,8 @@ Named entity gazetteer derived from the Thai Wikipedia.
 
 fork by https://github.com/mpsilfve/wikipedia_gazetteer
 
+```th_wikipedia_gazetteer.pkl``` from https://github.com/wannaphongcom/wikipedia_gazetteer/releases/tag/v1.0
+
 # General Stuff
 
 This code will build a gazetteer for Finnish Named Entity Recognition from the Thai Wikipedia. A gazetteer maps terms into categories. For example, the gazetteer built by this code maps "Samsung" into the category "บริษัท" (Finnish for company) and "Nokia" into the categories "บริษัท". 
@@ -21,6 +23,8 @@ Run
     make
     
 This will build a Python3 pickled dictionary ```th_wikipedia_gazetteer.pkl```.
+
+You can download ```th_wikipedia_gazetteer.pkl``` from https://github.com/wannaphongcom/wikipedia_gazetteer/releases/tag/v1.0
 
 # Using
 ```
